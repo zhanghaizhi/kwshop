@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*reset start*/
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,button,textarea,menu{margin:0;padding:0;}
+html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6{-webkit-text-size-adjust:none}
+html{font-size:16px}
+
+body{font-family:"微软雅黑",arial,sans-serif; background:#fff;}
+
+body{font-family:"微软雅黑",arial,sans-serif;color: #fff;}
+body > .contain{
+    max-width: 750px;
+    margin: 0 auto;
+}
+header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;font-style: normal;font-weight: normal;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,button,select,keygen,legend{color:#666;outline:0;}
+body *{-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0)}
+.clearfix:after{content:".";display:block;overflow:hidden;height:0;clear:both;visibility:hidden;}
+* html .clearfix{height:1%;}
+textarea,select{outline: none; -webkit-appearance:none;}
+.clearOver{overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
+.fl{float:left;}
+.fr{float:right;}
+.Page{max-width: 750px;margin:0 auto;font-size:0.3rem;height:100%; }
+.hide{display: none;}
+.header{height:0.87rem;position: relative;background: #fff;border-bottom: 1px solid #d9d9d9; font-size: 0.35rem; text-align: center;line-height: 0.87rem}
+.header i{content:"";display: inline-block;width:0.18rem;height:0.18rem;line-height: 0.18rem;border-width: 0px 0px 2px 2px;  border-color:#0099ff;  border-style: solid;  transform: matrix(0.71,0.71,-0.71,0.71,0,0); -webkit-transform: matrix(0.71,0.71,-0.71,0.71,0,0); /*transform: matrix(-0.71,0.71,-0.71,-0.71,0,0);*/  position: absolute;  top:50%;  left:0.3rem;  margin-top:-0.085rem;  }
+/*清浮动 BFC*/
+.clear:after {content: "";display: block;clear: both;}
+.clear {zoom:1;}
+.mal{margin-left: 0.3rem;}
+.mar{margin-right: 0.3rem;}
+.mat{margin-top: 0.2rem;}
+.colred{color: #ff6666;}
+.colblu{color:#0099ff;}
+.disabled { pointer-events: none; }
