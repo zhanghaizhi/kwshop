@@ -8,9 +8,12 @@ import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import FastClick from 'fastclick'
 import vmStorage from 'vm-storage'
+require('swiper/dist/css/swiper.css')
 
 Vue.config.productionTip = false
-
+Vue.use(MintUI);
+Vue.use(vmStorage);
+// Vue.prototype.HOST = '/api'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

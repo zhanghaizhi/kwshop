@@ -5,9 +5,9 @@
             var clientWidth = docEl.clientWidth;
             if (!clientWidth) return;
             docEl.style.fontSize = clientWidth / 7.5 + 'px';
+            console.log(clientWidth)
         };
     if (!doc.addEventListener) return;
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false);
-  
 })(document,window)
